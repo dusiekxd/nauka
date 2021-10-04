@@ -1,0 +1,35 @@
+git init                        - creating a repository 
+git remote add origin https://github.com/dusiekxd/git-excercises  - setting origin repository to /dusiekxd/git-excercises
+git status                      - status of repository
+git log                         - log 
+git add NAZWA PLIKU             - making file "READY TO COMMIT"
+git add .                       - making current directory files as "READY TO COMMIT"
+git add -A                      - all files 
+git commit -m"your text here"   - commiting with message
+git push                        - pushing changes to repository
+git push -u origin master       - pushing changes to origin repository in branch master
+
+
+
+Branches :
+
+git branch                                               - displaying all branches
+git checkout -b "name-of-new-branch"                     - making new branch and switching to it
+git checkout name-of-existing-branch                     - switching to existing branch
+git merge name-of-branch-we-want-to-merge-with-master    - merging branch with master branch
+git pull                        - pulling from repository (if someone changed in repo, and i don't have it in my workspace.)
+git pull --rebase               - pulling from repo, and rebuild it like in origin repo.
+
+git clone https://github.com/dusiekxd/git-excercises    - cloning contents of link's repo to current directory  
+
+others :
+
+gitk - git UI
+git reset --hard  - backing changes to last commit.
+git checkout name-of-a-file    - undo changes is plik name-of-a-file before commiting.
+
+
+---------------
+making gitignore file - ignoring files/types of files in git. Just to not add them to repo.
+make file .gitignore and put them on top of file f.e 
+*.exe *.bat Folder1 Folder2 etc.
