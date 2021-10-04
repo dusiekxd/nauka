@@ -7,7 +7,7 @@ git add .                       - making current directory files as "READY TO CO
 git add -A                      - all files 
 git commit -m"your text here"   - commiting with message
 git push                        - pushing changes to repository
-git push -u origin master       - pushing changes to origin repository in branch master
+git push -u origin main       - pushing changes to origin repository in branch main     #-u = set upstream
 
 
 
