@@ -32,8 +32,8 @@
 #------------------------------------------------
 
 first = 2
-second = 3
+second = "3"
 
-print (first + secend)
+print (first + int(second))
 
 
