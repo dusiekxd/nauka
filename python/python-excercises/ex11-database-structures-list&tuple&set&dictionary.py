@@ -72,3 +72,41 @@
 
 
 ################### Dictionary  TBC
+
+#Dictionary = key & value
+
+countries_and_capitals = {"Poland": "Warsaw", "Germany": "Berlin"}  # "Poland" is key, : "Warsaw" is value.
+countries_and_capitals['Chechia'] = "Prague"  #adding new items to dictionary
+
+#print(countries_and_capitals)
+
+
+#for countrykey in countries_and_capitals.keys():   #displaying keys of our dictionary called countries_and_capitals
+    #print(key)                                        
+
+
+#for capitals in countries_and_capitals.values():   
+#  print(capitals)                                   #displaying values of our dictionary called countries_and_capitals
+
+#for country, capital in countries_and_capitals.items():   
+#  print(country + " - " + capital)                        #displaying both keys and values separated by - character
+
+#print (countries_and_capitals["Poland"]) # displaying value of key POLAND
+#or
+#print (countries_and_capitals.get("Poland"))
+
+#print (countries_and_capitals["USA"])   # printing not extising key with result -  error
+#print (countries_and_capitals.get("USA"))   # printing not extising key with result -  none
+
+#print (countries_and_capitals.setdefault("USA", "Washington DC")) #adding USA Washington DC to dictionary
+#print (countries_and_capitals)
+
+if "Poland" in countries_and_capitals:#or ...capitals.keys():   #looking if POLAND is in our dictionary.
+    print("Znaleziono!")
+else:
+        print("nie znaleziono")
+
+
+
+
+
